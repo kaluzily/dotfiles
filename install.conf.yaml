@@ -6,5 +6,7 @@
 
 - link: 
     "~/.gitconfig": gitconfig
-  
-- shell: []
+    "~/.zshrc": zshrc
+- shell: 
+  - [mkdir -p ~/.local/share/fonts, Making fonts directory]
+  - [cd ~/.local/share/fonts && curl -fLo "Sauce Code Pro Medium Nerd Font Complete Mono.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCodePro/Medium/complete/Sauce%20Code%20Pro%20Medium%20Nerd%20Font%20Complete%20Mono.ttf, Downloading Sauce Code Pro]
